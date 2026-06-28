@@ -1,5 +1,5 @@
 character = input("Enter a character to check if it's an alphabet: ")
-if character.isalpha():
-   print("This character is an alphabet.")
+if len(character) == 1 and character.isalpha():
+   print(character, "is an alphabet.")
 else:
-   print("This character is not an alphabet.")
+   print(character, "is not an alphabet.")
